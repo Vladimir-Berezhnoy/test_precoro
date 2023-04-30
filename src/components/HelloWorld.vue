@@ -1101,6 +1101,8 @@ export default {
 
   .modal-window > .modal {
     width: 100%;
+    top: auto;
+    transform: translate(-50%, 0);
   }
 
   .switcher-info {
