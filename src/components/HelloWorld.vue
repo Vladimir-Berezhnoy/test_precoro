@@ -1059,7 +1059,7 @@ export default {
   }
 
   td {
-    max-width: 50px;
+    max-width: 100px;
     word-wrap: break-word;
     font-size: 14px;
   }
@@ -1103,6 +1103,7 @@ export default {
     width: 100%;
     top: auto;
     transform: translate(-50%, 0);
+    border-radius: 0;
   }
 
   .switcher-info {
@@ -1128,6 +1129,12 @@ export default {
 
   .flex-container .available-location {
     width: 195px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  td {
+    max-width: 71px;
   }
 }
 </style>
